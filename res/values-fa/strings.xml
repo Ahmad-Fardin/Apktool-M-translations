@@ -246,7 +246,7 @@
 	<string name="decompile">دیکامپایل</string>
 	<string name="decompile_res">دیکامپایل منابع</string>
 	<string name="decompile_dex">دیکامپایل classes*.dex</string>
-	<string name="decompile_all_dex">دیکامپایل همه \"*.dex\"</string>
+	<string name="decompile_all_dex">دیکامپایل همه فایل های dex</string>
 	<string name="decompile_multi_res">کامپایل کردن منابع اضافی</string>
 	<string name="install">نصب</string>
 	<string name="install_session">نصب با استفاده از جلسه</string>
@@ -462,7 +462,7 @@
 	<string name="fix_drawer">قفل کشیدن منوی کناری</string>
 	<string name="fix_drawer_summary">امکان کشیدن منوی کناری را متوقف می کند</string>
 	<string name="dont_notify">عدم نمایش اعلان در هنگام باز بودن برنامه</string>
-	<string name="dont_notify_summary">اگر برنامه باز است، اعلانی نشان داده نشود</string>
+	<string name="dont_notify_summary">اگر برنامه باز باشد، هیچ اعلانی نمایش داده نمی‌شود</string>
 	<string name="default_key">کلید پیشفرض</string>
 	<string name="default_key_summary">کلید امضای پیشفرض</string>
 	<string name="update_freq">تعداد دفعات بررسی به روز رسانی</string>
@@ -529,6 +529,10 @@
 	<string name="double_exit">دوبار لمس برای خروج</string>
 	<string name="double_exit_summary">برای خروج از برنامه، \"بازگشت\" را دو بار فشار دهید</string>
 	<string name="jadx_settings">تنظیمات JADX</string>
+    <string name="trlangs_settings">راه اندازی خدمات ترجمه</string>
+	<string name="trlangs_settings_summary">انتخاب زبان برای مترجمان آنلاین</string>
+    <string name="threads_count">تعداد رشته ها</string>
+	<string name="threads_count_summary">تعداد رشته ها برای پردازش های چند رشته ای</string>
 	<string name="faq">پرسش های متداول</string>
 	<string name="faq_summary">راهنمای استفاده از برنامه</string>
 	<string name="jadx_settings_summary">تنظیمات پیش نمایش کد جاوا</string>
@@ -607,9 +611,9 @@
 	<string name="mtool_repl">جایگزینی ابزار</string>
 	<string name="mtool_repl_summary">جایگزینی aapt, aapt2</string>
 	<string name="build_notification">اعلان ها</string>
-	<string name="build_notification_summary">ارسال اعلان پس از اتمام ساخت و دکامپایل</string>
+	<string name="build_notification_summary">پس از اتمام ساخت و دیکامپایل یک اعلان نمایش داده می شود</string>
 	<string name="ongoing_notification">نمایش اعلان در حال کار</string>
-	<string name="ongoing_notification_summary">نمایش اعلان در حین ساخت و دکامپایل</string>
+	<string name="ongoing_notification_summary">در هنگام ساخت و دیکامپایل یک اعلان نمایش داده می شود</string>
 	<string name="format_html">قالب بندی HTML</string>
 	<string name="format_html_summary">هنگام دیکامپایل HTML را در رشته ها قالب بندی میکند. می تواند منجر به مشکلات شود.</string>
 	<string name="add_dummy">افزودن \"APKTOOL_DUMMY\"</string>
@@ -643,7 +647,7 @@
 	<string name="dont_reset_cpb">دکمه جای‌گذاری را بازنشانی نکن</string>
 	<string name="dont_reset_cpb_summary">دکمه جای‌گذاری هنگام کپی کردن فایل ها تنها با فشار طولانی روی آن بازنشانی می شود</string>
 	<string name="build_toout">ساخت در پوشه کاری خروجی</string>
-	<string name="build_toout_summary">هنگام ساخت پروژه ها، APK ها در پوشه خروجی ذخیره می شوند</string>
+	<string name="build_toout_summary">در هنگام ساخت پروژه ها، فایل های apk در پوشه خروجی ذخیره می شوند</string>
 	<string name="aicon_size">اندازه نماد تطبیقی</string>
 	<string name="aicon_size_summary">اندازه نماد تطبیقی یا برداری برای ویرایش سریع</string>
 	<string name="github">فایل هایی برای ترجمه</string>
@@ -736,7 +740,7 @@
 	<string name="mtr_auto">ترجمه خودکار</string>
 	<string name="mtr_slang">زبان مبدأ</string>
 	<string name="mtr_tlang">زبان مقصد</string>
-	<string name="mtr_skip_tr">از خطوط ترجمه شده بگذرید</string>
+	<string name="mtr_skip_tr">نادیده گرفتن موارد ترجمه شده</string>
 	<string name="mtr_fix_tr">تصحیح ترجمه</string>
 	<string name="mtr_net_err">خطای شبکه</string>
 	<string name="mtr_line_num">شماره خطوط</string>
@@ -767,7 +771,7 @@
 	<string name="mtr_trans_smali">ترجمه smali</string>
 	<string name="mtr_trans_xml">ترجمه xml</string>
 	<string name="mtr_no_trans">رشته نیازی به ترجمه ندارد!</string>
-	<string name="mtr_first_notrans">ابتدا موارد ترجمه نشده</string>
+	<string name="mtr_first_notrans">موارد ترجمه نشده در ابتدای فهرست</string>
 	<string name="attention">توجه!</string>
 	<string name="repeat">تکرار</string>
 	<string name="down_for">بارگیری برای %s</string>
